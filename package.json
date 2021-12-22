@@ -1,0 +1,23 @@
+{
+  "name": "data-structures",
+  "version": "1.0.0",
+  "description": "coding data structures from scratch",
+  "main": "doubly-linked-list.js",
+  "scripts": {
+    "test": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anusontarangkul/data-structures.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anusontarangkul/data-structures/issues"
+  },
+  "homepage": "https://github.com/anusontarangkul/data-structures#readme",
+  "devDependencies": {
+    "jest": "^27.4.5"
+  }
+}

@@ -41,9 +41,20 @@ class LinkedList {
 
 }
 
+
+
 const list = new LinkedList();
 list.append('a');
 list.append('b');
-console.log(list.contains('x'))
 
-list.print()
+
+const deleteValue = (head, target) => {
+    let prev = null;
+    let curr = head;
+    while (curr !== null) {
+        console.log(curr.val)
+        curr = curr.next;
+    }
+}
+
+deleteValue('a', "c")
